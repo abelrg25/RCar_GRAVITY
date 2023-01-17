@@ -1,11 +1,11 @@
 # RCar_GRAVITY
-This project includes a Jupyter notebook with the codes used to obtain the results reported in Rosales-Guzman et al. for the M-type AGB star R Car. We only provide some examples to make clear what the programs are doing.
+This project includes a __Jupyter__ notebook with the codes used to obtain the results reported in Rosales-Guzman et al. for the M-type AGB star R Car. We only provide some examples to make clear what the programs are doing.
 The jupyter notebook is divided in 3 parts which are described below together with some relevant equations and figures. 
 
 ## MCMC fit to the $V^2$ across the pseudo continuum
 To obtain the angular size of R Car across the K-band, we applied a geometrical model of a uniform disk (UD) to the $V^2$ data. The visibility function of our models is given by the following equation (Berger & Segransan [2007](https://doi.org/10.1016/j.newar.2007.06.003)):
 
-$$   V_{\mathrm{UD}}(u,v) = 2(\mathrm{F_r})\frac{J_1(\pi \rho \Theta_\mathrm{UD} )}{\pi  \rho \Theta_{\mathrm{UD}}}\,,$$
+$$   V_{\mathrm{UD}}(u,v) = 2(\mathrm{F_r})\frac{J_1(\pi \rho \Theta_\mathrm{UD} )}{\pi  \rho \Theta_{\mathrm{UD}}}\$$
 
 where $\rho = \sqrt{u^2+ v^2}$, $u$ and $v$ are the spatial frequencies sampled by the interferometric observations, $J_1$ is the first order Bessel function, $\Theta_\mathrm{UD}$ and $F_r$ are the angular diameter of the uniform disk profile and a scaling factor that accounts for the over-resolved flux in the observations, respectively. To fit the data, we used a Monte-Carlo Markov-Chain (MCMC) algorithm based on the ```Python``` package ```emcee``` (Foreman et al., [2013](https://iopscience.iop.org/article/10.1086/670067/pdf)). We let 250 walkers evolve for 150 steps using the data of each spectral bin independently. The results of this piece of code are shown in the form of the three following plots. 
 
