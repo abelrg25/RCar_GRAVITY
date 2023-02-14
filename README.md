@@ -35,7 +35,7 @@ $$   V_{\mathrm{UD}}(u,v) = 2(\mathrm{F_r})\frac{J_1(\pi \rho \Theta_\mathrm{UD}
 
 where $\rho = \sqrt{u^2+ v^2}$, $u$ and $v$ are the spatial frequencies sampled by the interferometric observations, $J_1$ is the first order Bessel function, $\Theta_\mathrm{UD}$ and $F_r$ are the angular diameter of the uniform disk profile and a scaling factor that accounts for the over-resolved flux in the observations, respectively. To fit the data, we used a Monte-Carlo Markov-Chain (MCMC) algorithm based on the ```Python``` package ```emcee``` (Foreman et al., [2013](https://iopscience.iop.org/article/10.1086/670067/pdf)). We let 250 walkers evolve for 150 steps using the data of each spectral bin independently. The results of this code are shown as three plots (Figs. 1, 2, and 3). 
 
-<img src="https://user-images.githubusercontent.com/61716000/211224980-997bc407-3bc0-461f-9f11-3425b25c16b3.png" width="400">
+<img src="https://user-images.githubusercontent.com/61716000/218837381-187bd24e-e989-49b7-b4c2-d1e3dc5b24d2.png" width="400">
 
 #### Fig. 1 Best-fit to the $V^2$ from the MCMC. The data are shown with red dots and the model with the blue line. The values corresponding to the best model are also shown in the plot. 
 
