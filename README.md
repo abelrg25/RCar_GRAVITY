@@ -1,3 +1,6 @@
+# Disclaimer
+This repository is under the GNU General Public License 3.0 and corresponds to the A&A article "The K-band highest resolution images of the M-type Mira star R Car from Rosales-Guzman et al., (Temptatively published on 2023). If you are going to use the code, please contact me (the author) at jarosales@astro.unam.mx
+
 # RCar_GRAVITY
 This repository contains a series of scripts (in the form of a __Jupyter__ notebook) used for analyzing GRAVITY-VLTI data of the M-type AGB star R Car. 
 The jupyter notebook is divided in 3 parts. Those parts are described below together with some relevant information of the equations and figures. 
