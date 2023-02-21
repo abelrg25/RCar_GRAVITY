@@ -1,6 +1,3 @@
-# Disclaimer
-This repository is under the GNU General Public License 3.0 and corresponds to the A&A article "The K-band highest resolution images of the M-type Mira star R Car from Rosales-Guzman et al., (Temptatively published on 2023). If you are going to use the code, please contact me (the author) at jarosales@astro.unam.mx
-
 # RCar_GRAVITY
 This repository contains a series of scripts (in the form of a __Jupyter__ notebook) used for analyzing GRAVITY-VLTI data of the M-type AGB star R Car. 
 The jupyter notebook is divided in 3 parts. Those parts are described below together with some relevant information of the equations and figures. 
@@ -84,3 +81,6 @@ According to Babu & Singh [1983](https://www.jstor.org/stable/2240663), the stat
 <img width="905" alt="image" src="https://user-images.githubusercontent.com/61716000/211895310-813a141b-cb2e-4822-a568-b47bc724fad0.png">
 
 #### Fig 7. From left to right: $V^2$ and CPs as a function of the Spatial Frequency, and UV coverage for a sample of ten bootstrapped data sets. Each color corresponds to a different bootstrapped data set. 
+
+# Disclaimer
+All the scripts that compose this repository are open source under the GNU General Public License 3.0 and correspond to the A&A article "The K-band highest resolution images of the M-type Mira star R Car from Rosales-Guzman et al., (Temptatively published on 2023). For enquiries and/or contributions please contact jarosales@astro.unam.mx
