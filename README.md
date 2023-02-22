@@ -19,7 +19,9 @@ No installation is needed, just download the repository and open the Jupyter not
 <a href="https://matplotlib.org">matplotlib</a>  
     
 <a href="https://numpy.org">numpy</a>  
-    
+
+<a href="https://pypi.org/project/opencv-python/">Open CV</a> 
+ 
 <a href="https://scipy.org/install/">scipy</a>  
     
 <a href="https://scikit-learn.org/stable/install.html">sklearn</a>  
@@ -85,5 +87,14 @@ According to Babu & Singh [1983](https://www.jstor.org/stable/2240663), the stat
 To have a more precise characterization of the asymmetries in the reconstructed images of the CO band-heads, we used the Principal Component Analysis (PCA) described by Medeiros et al., [2018](https://iopscience.iop.org/article/10.3847/1538-4357/aad37a/meta). Those authors demonstrate that the visibilities of the Principal Components are equal to the Principal Components of the visibilities. This method is useful to trace the changes across a set of images that have the largest effect on the visibility (amplitude and -closure- phase) profile. In our case, we estimate the most significant structural changes of the observed asymmetric structures across wavelength for each of the observed epochs. The following procedure was applied to the ensemble of wavelength dependent images per epoch to extract their Principal Components.
 
 For the PCA analysis, we normalize each data set by subtracting the corresponding mean image and dividing by their standard deviation image across the wavelength range. To perform the PCA analysis, we used the [CASSINI](https://github.com/cosmosz5/CASSINI) package. This software allows to compute the covariance matrix of the data set and to transform it into the space of the principal components. This allows us to determine the eigenvectors (or eigen-images, in our case) and their corresponding eigenvalues. Since we only have seven images per data set,  and the possible number of components must be smaller or equal than the number of images in the data set, we decided to only keep the first four principal components. From our tests, we observed that those components explain, at least, the 93\% of the variance in the data sets. 
+
+<img src="https://user-images.githubusercontent.com/61716000/220493849-a4324925-16ba-4a62-8f9f-953883b0a319.png" width="600">
+
+#### Fig 8. First four Principal Components for the January epoch for the 1st CO band head. The relative scale of the structures in the eigen-images is displayed with a colorbar at the bottom of each panel. Only the central 20 mas of the eigen-images are shown on each panel. The white contours correspond to the mean image across wavelength (per given data set) and they represent 10, 30, 50, 70, 90, 95, 97, and 99 \% of the intensity's peak. 
+
+<img src="https://user-images.githubusercontent.com/61716000/220494444-56202ea9-0a83-48cc-8f10-4202d47ce857.png" width="800">
+
+#### Fig 9. Representative example of the CPs versus spatial frequencies of the data set that corresponds to the 1st CO band-head at 2.2946 $\mu m$ (gray squares). The colored dots show the CPs from the recovered images obtained with different numbers of Principal Components (see label on the plot). 
+
 # Disclaimer
 All the scripts that compose this repository are open source under the GNU General Public License 3.0 and correspond to the A&A article "The K-band highest resolution images of the M-type Mira star R Car from Rosales-Guzman et al., (Temptatively published on 2023). For enquiries and/or contributions please contact jarosales@astro.unam.mx
