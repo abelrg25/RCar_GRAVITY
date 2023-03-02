@@ -1,5 +1,5 @@
 # RCar_GRAVITY
-This repository contains a series of scripts (in the form of a __Jupyter__ notebook) used for analyzing GRAVITY-VLTI data of the M-type AGB star R Car. 
+This repository contains a series of scripts (in the form of a __Jupyter__ notebook) used for analyzing GRAVITY-VLTI data of the M-type AGB star R Car (see Rosales-Guzman et al., [2023](https://arxiv.org/abs/2303.00056) ). 
 The jupyter notebook is divided in 3 parts. Those parts are described below together with some relevant information of the equations and figures. 
 No installation is needed, just download the repository and open the Jupyter notebook `RCar_analysis.ipynb` to star working with it using the following command:
 
