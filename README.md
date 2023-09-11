@@ -97,4 +97,4 @@ For the PCA analysis, we normalize each data set by subtracting the correspondin
 #### Fig 9. Representative example of the CPs versus spatial frequencies of the data set that corresponds to the 1st CO band-head at 2.2946 $\mu m$ (gray squares). The colored dots show the CPs from the recovered images obtained with different numbers of Principal Components (see label on the plot). 
 
 # Disclaimer
-All the scripts that compose this repository are open source under the GNU General Public License 3.0 and correspond to the A&A article "The K-band highest resolution images of the M-type Mira star R Car from Rosales-Guzman et al., (Temptatively published on 2023). For enquiries and/or contributions please contact jarosales@astro.unam.mx
+All the scripts that compose this repository are open source under the GNU General Public License 3.0 and correspond to the A&A article <a href="https://www.aanda.org/articles/aa/full_html/2023/06/aa45370-22/aa45370-22.html#FN2">Imaging the innermost gaseous layers of the Mira star R Car with GRAVITY-VLTI</a>   from Rosales-Guzman et al. For enquiries and/or contributions please contact jarosales@astro.unam.mx
